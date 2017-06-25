@@ -57,6 +57,7 @@
     "bcoin": "./bin/bcoin"
   },
   "scripts": {
+    "start": "./bin/node",
     "test": "mocha --reporter spec test/*-test.js",
     "test-file": "mocha --reporter spec ",
     "test-browser": "BCOIN_NO_NATIVE=1 BCOIN_USE_ELLIPTIC=1 mocha --reporter spec test/*-test.js",
